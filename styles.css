@@ -1,20 +1,39 @@
-table,
-th,
-td {
-  border: 1px solid lightgray;
-  border-collapse: collapse;
-}
-
-table {
-  background-color: rgba(255, 255, 255, 0.85);
-}
-
 body {
-  background-color: lightslategrey;
+  background-color: white;
+  padding: 20px 0px 100px 0px;
 }
 
+img.profile {
+  width: 150px;
+  height: 150px;
+}
+img.link_logo {
+  width: relative;
+  height: 12px;
+}
 img.app_icon {
   width: 80px;
   height: 80px;
-  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+a.link {
+  margin: 4px;
+  padding: 3px 5px 3px 5px;
+  background-color: lightgray;
+  border-radius: 3px;
+}
+a.link span {
+  text-decoration: underline;
+}
+
+div.app_row {
+  background-color: transparent; /* temp */
+}
+
+div.app_box {
+  background-color: whitesmoke; /* temp */
+  margin: 10px 0px 10px 0px;
+  padding: 12px;
+  height: 200px;
 }
