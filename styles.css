@@ -23,6 +23,24 @@ div.exp_item {
   border-color: #343434;
 }
 
+div.port_links {
+  text-align: end;
+  padding: 20px;
+}
+div.port_links a {
+  text-decoration: none;
+  font-size: small;
+  /* border: 1px solid #343434; */
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 15px;
+}
+div.port_links i {
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 #v-menu-tab a {
   color: #343434;
   font-weight: bold;
