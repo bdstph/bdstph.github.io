@@ -1,4 +1,38 @@
+/* 
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+*/
+
+@media only screen and (max-width: 767px) {
+
+    /* xs screen */
+    div.container {
+        padding-top: 30px;
+    }
+    div.content {
+        padding-top: 40px;
+    }
+    #v-menu-tab a {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* sm screen */
+    div.container {
+        padding-top: 80px;
+    }
+    div.menu {
+        padding-top: 10px;
+    }
+}
+
 @media (min-width: 1200px) {
+
+    /* lg screen */
     .container {
         width: 1024px !important;
     }

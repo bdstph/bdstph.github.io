@@ -11,78 +11,19 @@ div.container {
   background-color: #101010;
 }
 
-div.logo {
-
-}
-
-div.menu {
-  
-}
-
 div.content {
   padding-right: 50px;
 }
 
+#v-menu-tab a {
+  color: #343434;
+  font-weight: bold;
+}
+
 #v-menu-tab a.active {
+  color: white;
   background-color: #343434;
 }
 
-img.profile {
-  width: 150px;
-  height: 150px;
-}
-img.app_icon {
-  width: 80px;
-  height: 80px;
-  box-shadow: 2px 2px 5px gray;
-}
 
-a.link {
-  margin: 2px;
-  padding: 3px 5px 3px 5px;
-  background-color: lightgray;
-  border-radius: 5px;
-  white-space: nowrap;
-  text-align: center;
-  vertical-align: middle;
-}
-img.link_logo {
-  width: relative;
-  height: 15px;
-}
 
-div.app_row {
-  background-color: transparent; /* temp */
-}
-
-div.app_box {
-  background-color: whitesmoke; /* temp */
-  margin: 10px 0px 10px 0px;
-  padding: 12px;
-  height: 200px;
-}
-
-@media only screen and (max-width: 480px) {
-  /* small screen */
-  div.container {
-    padding-top: 0;
-  }
-  span.badge {
-    font-size: 18px;
-  }
-
-  div.info_skills {
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 481px) {
-  /* large screen */
-  div.container {
-    padding-top: 100px;
-  }
-
-  div.info_skills {
-    text-align: left;
-  }
-}
