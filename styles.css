@@ -1,7 +1,7 @@
 
 /*   */
 body {
-  background-color: #28282B;
+  background-color: #111111;
   margin: 0 !important;
   padding: 0 !important;
   font-size: 20px;
@@ -9,6 +9,9 @@ body {
 
 div.container {
   background-color: #101010;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 20px;
 }
 
 div.content {
@@ -42,7 +45,7 @@ div.port_links i {
 }
 
 #v-menu-tab a {
-  color: #343434;
+  color: #808080;
   font-weight: bold;
 }
 
