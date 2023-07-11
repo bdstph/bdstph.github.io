@@ -33,7 +33,7 @@ function setContent() {
     $("div.content").load("views/about.html");
   } else if (hash == "experience") {
     $("div.content").load("views/experience.html", function () {
-      loadExpPage(8);
+      loadExpPage(9);
     });
   } else if (hash == "projects") {
     $("div.content").load("views/projects.html");
@@ -48,8 +48,6 @@ function setContent() {
   $("#v-menu-" + hash + "-tab").addClass("active");
 }
 function loadExpPage(page) {
-  var last = 8;
-
   var pageName = "views/experience/" + page + ".html";
   
   $.get(pageName, function(html) {
