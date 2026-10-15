@@ -5,250 +5,533 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="End-User License Agreement for Klondike Solitaire.">
+        content="End-User License Agreement (EULA) and Terms of Agreement for Klondike Solitaire by BDST PH / Brylle Seraspe. Compliant with Google Play policies and US & Philippine legal standards.">
     <meta name="author" content="Brylle Seraspe">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" href="icon.png">
 
-    <title>EULA - Klondike Solitaire</title>
+    <title>Terms of Agreement &amp; EULA - Klondike Solitaire</title>
 
+    <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        :root {
+            --primary-color: #1b5e20;
+            --accent-color: #2e7d32;
+            --text-dark: #212529;
+            --bg-light: #f8f9fa;
+            --card-border: #e9ecef;
+        }
+
+        body {
+            color: var(--text-dark);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            background-color: #f4f6f8;
+        }
+
+        .policy-container {
+            max-width: 960px;
+            margin: 2rem auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        .policy-header {
+            background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+            color: #ffffff;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .policy-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 1rem;
+            background: #ffffff;
+        }
+
+        .policy-header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .policy-header .meta {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .policy-body {
+            padding: 2.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .policy-body {
+                padding: 1.5rem;
+            }
+
+            .policy-header {
+                padding: 2rem 1rem;
+            }
+
+            .policy-header h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e8f5e9;
+        }
+
+        h3 {
+            color: #2e7d32;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .toc {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.25rem 1.5rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .toc h5 {
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--primary-color);
+        }
+
+        .toc ol {
+            margin-bottom: 0;
+            padding-left: 1.25rem;
+        }
+
+        .toc li {
+            margin-bottom: 0.35rem;
+        }
+
+        .alert-custom {
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            color: #1b5e20;
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .alert-warning-custom {
+            background-color: #fff8e1;
+            border: 1px solid #ffe082;
+            color: #795548;
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .caps-notice {
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .footer-logo {
+            width: 32px;
+            height: 32px;
+        }
+
+        footer {
+            border-top: 1px solid #e0e0e0;
+            background: #ffffff;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: var(--accent-color);
+        }
+
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-left bg-light">
-        <h1>End-User License Agreement ("Agreement")</h1>
 
-        <p>Last updated: March 23, 2026</p>
-        <p>Please read this End-User License Agreement carefully.</p>
+    <div class="policy-container">
+        <!-- Header -->
+        <div class="policy-header">
+            <img src="icon.png" alt="Klondike Solitaire Logo">
+            <h1>End-User License Agreement &amp; Terms of Service</h1>
+            <div class="meta">
+                <span>Application: <strong>Klondike Solitaire</strong></span> &bull;
+                <span>Developer: <strong>Brylle Seraspe (BDST PH)</strong></span><br>
+                <span>Effective Date: <strong>October 15, 2026</strong></span> &bull;
+                <span>Last Updated: <strong>October 15, 2026</strong></span>
+            </div>
+        </div>
 
-        <h2>Interpretation and Definitions</h2>
-        <h4>Interpretation</h4>
-        <p>The words of which the initial letter is capitalized have meanings defined under the following
-            conditions. The following definitions shall have the same meaning regardless of whether they
-            appear in singular or in plural.</p>
-        <h4>Definitions</h4>
-        <p>For the purposes of this End-User License Agreement:</p>
-        <ul>
-            <li>
-                <p><strong>Agreement</strong> means this End-User License Agreement that forms the entire
-                    agreement between You and the Company regarding the use of the Application.</p>
-            </li>
-            <li>
-                <p><strong>Application</strong> means the software program provided by the Company
-                    downloaded by You to a Device, named Klondike Solitaire</p>
-            </li>
-            <li>
-                <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in
-                    this Agreement) refers to Klondike Solitaire.</p>
-            </li>
-            <li>
-                <p><strong>Content</strong> refers to content such as text, images, or other information
-                    that can be posted, uploaded, linked to or otherwise made available by You, regardless
-                    of the form of that content.</p>
-            </li>
-            <li>
-                <p><strong>Country</strong> refers to: Philippines</p>
-            </li>
-            <li>
-                <p><strong>Device</strong> means any device that can access the Application such as a
-                    computer, a cellphone or a digital tablet.</p>
-            </li>
-            <li>
-                <p><strong>Third-Party Services</strong> means any services or content (including data,
-                    information, applications and other products services) provided by a third-party that
-                    may be displayed, included or made available by the Application.</p>
-            </li>
-            <li>
-                <p><strong>You</strong> means the individual accessing or using the Application or the
-                    company, or other legal entity on behalf of which such individual is accessing or using
-                    the Application, as applicable.</p>
-            </li>
-        </ul>
-        <h2>Acknowledgment</h2>
-        <p>By downloading or using the Application, You are agreeing to be
-            bound by the terms and conditions of this Agreement. If You do not agree to the terms of this
-            Agreement, do not download or do not use the Application.
-        </p>
-        <p>This Agreement is a legal document between You and the Company and it governs your use of the
-            Application made available to You by the Company.</p>
-        <p>The Application is licensed, not sold, to You by the Company for use strictly in accordance with
-            the terms of this Agreement.</p>
+        <div class="policy-body">
+            <!-- Summary Callout -->
+            <div class="alert-custom">
+                <strong>Important Notice:</strong> Please read this End-User License Agreement and Terms of Service ("Agreement") carefully before downloading, installing, or playing Klondike Solitaire. By downloading, accessing, or playing the game, you agree to be bound by the terms and conditions set forth herein. If you do not agree, do not install or use the game.
+            </div>
 
-        <h2>License</h2>
-        <h4>Scope of License</h4>
-        <p>The Company grants You a revocable, non-exclusive, non-transferable, limited license to download,
-            install and use the Application strictly in accordance with the terms of this Agreement.</p>
-        <p>The license that is granted to You by the Company is solely for your personal, non-commercial
-            purposes strictly in accordance with the terms of this Agreement.</p>
+            <!-- Table of Contents -->
+            <div class="toc">
+                <h5>Table of Contents</h5>
+                <ol>
+                    <li><a href="#acknowledgment">Acknowledgment &amp; Legal Agreement</a></li>
+                    <li><a href="#definitions">Definitions</a></li>
+                    <li><a href="#eligibility">Eligibility &amp; Age Requirements</a></li>
+                    <li><a href="#license-grant">Scope of License</a></li>
+                    <li><a href="#license-restrictions">License Restrictions &amp; Prohibited Conduct</a></li>
+                    <li><a href="#intellectual-property">Intellectual Property Rights</a></li>
+                    <li><a href="#in-app-purchases">In-App Purchases, Subscriptions &amp; Billing</a></li>
+                    <li><a href="#advertisements">Third-Party Advertisements &amp; Rewarded Ads</a></li>
+                    <li><a href="#privacy">Privacy &amp; Data Protection</a></li>
+                    <li><a href="#updates-support">Updates, Maintenance &amp; Modifications</a></li>
+                    <li><a href="#termination">Term &amp; Termination</a></li>
+                    <li><a href="#no-warranties">Disclaimer of Warranties ("AS IS")</a></li>
+                    <li><a href="#limitation-liability">Limitation of Liability</a></li>
+                    <li><a href="#indemnification">Indemnification</a></li>
+                    <li><a href="#dispute-resolution">Dispute Resolution, Governing Law &amp; Jurisdiction</a></li>
+                    <li><a href="#us-compliance">United States Legal &amp; Export Compliance</a></li>
+                    <li><a href="#severability-waiver">Severability &amp; Waiver</a></li>
+                    <li><a href="#entire-agreement">Entire Agreement &amp; Amendments</a></li>
+                    <li><a href="#contact-us">Contact Information</a></li>
+                </ol>
+            </div>
 
-        <h2>Subscription</h2>
-        <p>The App may offer subscription-based services. By subscribing, you agree to pay the applicable fees and abide
-            by the terms of the subscription plan selected. Subscription fees are non-refundable.</p>
+            <!-- 1. Acknowledgment -->
+            <h2 id="acknowledgment">1. Acknowledgment &amp; Legal Agreement</h2>
+            <p>
+                This End-User License Agreement and Terms of Service ("Agreement") constitutes a valid, legally binding agreement between you (an individual user, referred to as "You", "Your", or "User") and <strong>Brylle Seraspe / BDST PH</strong> ("Licensor", "Company", "We", "Us", or "Our").
+            </p>
+            <p>
+                This Agreement governs your access to and use of the mobile game application titled <strong>Klondike Solitaire</strong> (the "Application" or "Game"), including all associated software, features, sound effects, animations, graphical assets, and digital documentation.
+            </p>
+            <p>
+                The Application is <strong>licensed, not sold</strong>, to You strictly in accordance with the terms of this Agreement. By downloading, installing, launching, or playing the Application, You acknowledge that:
+            </p>
+            <ul>
+                <li>You have read, understood, and agree to be legally bound by this Agreement;</li>
+                <li>You agree to our collection, use, and disclosure of data as outlined in our <a href="privacy.html">Privacy Policy</a>; and</li>
+                <li>You have the legal capacity to enter into this binding contract in your jurisdiction.</li>
+            </ul>
 
-        <h2>Ads</h2>
-        <p>The App may display third-party advertisements. We are not responsible for the content of these ads. Your
-            interactions with advertisers found within the App are solely between you and the advertiser.</p>
+            <!-- 2. Definitions -->
+            <h2 id="definitions">2. Definitions</h2>
+            <p>For the purposes of this Agreement, the following terms shall have the meanings ascribed below:</p>
+            <ul>
+                <li><strong>"Application"</strong> means the software application Klondike Solitaire developed by Brylle Seraspe / BDST PH, distributed via the Google Play Store, Apple App Store, or authorized application repositories.</li>
+                <li><strong>"Company"</strong> refers to Brylle Seraspe / BDST PH, based in the Philippines.</li>
+                <li><strong>"Device"</strong> means any smartphone, tablet, or handheld electronic unit running the Android or iOS operating system capable of executing the Application.</li>
+                <li><strong>"Store"</strong> means the digital distribution platform operated by third parties through which the Application was obtained (i.e., Google Play Store operated by Google LLC or App Store operated by Apple Inc.).</li>
+                <li><strong>"In-App Purchase"</strong> means optional digital goods, virtual perks (such as hints or undos), or subscription-based services (such as "Remove Ads") offered for purchase within the Application.</li>
+                <li><strong>"Third-Party Services"</strong> means third-party technologies, SDKs, ad networks, and services integrated into or linked from the Application, including Google AdMob, Google Analytics, Firebase, and Firestore.</li>
+            </ul>
 
-        <h2>Data Collection</h2>
-        <p>The App may collect data for analytics, crash reports, and diagnostics purposes only. This data may include,
-            but is not limited to, device information, usage statistics, and error logs. We use this data to improve the
-            performance and functionality of the App.</p>
+            <!-- 3. Eligibility -->
+            <h2 id="eligibility">3. Eligibility &amp; Age Requirements</h2>
+            <p>
+                Klondike Solitaire is intended for a general audience. To download and use the Application, You must meet the following age requirements:
+            </p>
+            <ul>
+                <li><strong>In the United States:</strong> You must be at least thirteen (13) years of age. If You are between 13 and the legal age of majority in your state of residence, your parent or legal guardian must review and accept this Agreement on your behalf.</li>
+                <li><strong>In the Philippines:</strong> You must be at least eighteen (18) years of age or possess legal capacity. If You are below 18 years of age, You must obtain the prior consent and supervision of a parent or legal guardian.</li>
+                <li>In any other jurisdiction, You must have reached the minimum legal age required to consent to the processing of personal data and entering into binding electronic agreements.</li>
+            </ul>
 
-        <h2>Privacy</h2>
-        <p>We are committed to protecting your privacy. We will only collect, use, and disclose your personal
-            information
-            in accordance with our Privacy Policy. By using the App, you consent to the collection and use of your data
-            as
-            described in our Privacy Policy.</p>
+            <!-- 4. License Grant -->
+            <h2 id="license-grant">4. Scope of License</h2>
+            <p>
+                Subject to your continuous compliance with the terms of this Agreement, the Company grants You a revocable, non-exclusive, non-transferable, non-sublicensable, limited personal license to download, install, and execute one or more copies of the Application on Devices that You own or control.
+            </p>
+            <p>This license is granted solely for:</p>
+            <ul>
+                <li>Your personal, private, non-commercial entertainment use; and</li>
+                <li>Execution strictly in accordance with the terms of this Agreement and any applicable usage rules established by the Store from which You downloaded the Application.</li>
+            </ul>
+            <p>
+                All rights not expressly granted to You in this Agreement are reserved exclusively by the Company and its licensors.
+            </p>
 
-        <h2>Third-Party Services</h2>
-        <p>The Application may display, include or make available third-party content (including data,
-            information, applications and other products services) or provide links to third-party websites
-            or services.</p>
-        <p>You acknowledge and agree that the Company shall not be responsible for any Third-party Services,
-            including their accuracy, completeness, timeliness, validity, copyright compliance, legality,
-            decency, quality or any other aspect thereof. The Company does not assume and shall not have any
-            liability or responsibility to You or any other person or entity for any Third-party Services.
-        </p>
-        <p>You must comply with applicable Third parties' Terms of agreement when using the Application.
-            Third-party Services and links thereto are provided solely as a convenience to You and You
-            access and use them entirely at your own risk and subject to such third parties' Terms and
-            conditions.</p>
+            <!-- 5. License Restrictions -->
+            <h2 id="license-restrictions">5. License Restrictions &amp; Prohibited Conduct</h2>
+            <p>You agree not to, and You shall not permit or authorize any third party to:</p>
+            <ul>
+                <li><strong>Reverse Engineer:</strong> Decompile, reverse engineer, disassemble, decrypt, or otherwise attempt to derive or access the source code, underlying game algorithms, or internal structure of the Application;</li>
+                <li><strong>Modify or Create Derivatives:</strong> Modify, adapt, translate, enhance, customize, or create derivative works of any portion of the Game or its assets;</li>
+                <li><strong>Commercial Exploitation:</strong> Sell, resell, rent, lease, lend, license, distribute, sublicense, time-share, or commercially exploit the Application;</li>
+                <li><strong>Cheat or Tamper:</strong> Use any cheats, automation software (bots), hacks, memory editors, packet sniffers, or unauthorized third-party software designed to alter game mechanics, card distributions, scores, or win streaks;</li>
+                <li><strong>Interfere with Ads or Security:</strong> Bypass, disable, circumvent, or interfere with security features, in-app ad rendering mechanisms (including Google AdMob), or attribution frameworks;</li>
+                <li><strong>Remove Notices:</strong> Remove, obscure, or alter any copyright notices, trademark symbols, watermarks, or proprietary legends displayed in or on the Application;</li>
+                <li><strong>Harmful Code:</strong> Transmit viruses, malware, trojans, worms, or malicious code designed to disrupt, damage, or limit the functionality of any Device or telecommunication network;</li>
+                <li><strong>Unlawful Use:</strong> Use the Application for any fraudulent, unauthorized, or illegal purpose under the laws of the United States, the Philippines, or your local jurisdiction.</li>
+            </ul>
 
-        <h2>Term and Termination</h2>
-        <p>We reserve the right to terminate or suspend your access to the App at any time, without prior notice or
-            liability, for any reason whatsoever, including without limitation if you breach the terms of this EULA.</p>
-        <p>This Agreement shall remain in effect until terminated by You or the Company.
-            The Company may, in its sole discretion, at any time and for any or no reason, suspend or
-            terminate this Agreement with or without prior notice.</p>
-        <p>This Agreement will terminate immediately, without prior notice from the Company, in the event
-            that you fail to comply with any provision of this Agreement. You may also terminate this
-            Agreement by deleting the Application and all copies thereof from your Device or from your
-            computer.</p>
-        <p>Upon termination of this Agreement, You shall cease all use of the Application and delete all
-            copies of the Application from your Device.</p>
-        <p>Termination of this Agreement will not limit any of the Company's rights or remedies at law or in
-            equity in case of breach by You (during the term of this Agreement) of any of your obligations
-            under the present Agreement.</p>
+            <!-- 6. Intellectual Property -->
+            <h2 id="intellectual-property">6. Intellectual Property Rights</h2>
+            <p>
+                You acknowledge and agree that the Application and all copyrights, patents, trademarks, trade secrets, and other intellectual property rights associated therewith are, and shall remain, the sole and exclusive property of <strong>Brylle Seraspe / BDST PH</strong> and our licensors.
+            </p>
+            <p>
+                This intellectual property includes, without limitation:
+            </p>
+            <ul>
+                <li>The computer code, logic routines, winnable deal generators, and auto-solver algorithms;</li>
+                <li>All visual assets, card face and card back designs, companion characters (including the Froggy, Black Cat, Autumn Fairy, and Snowball animations), backgrounds, icons, particle effects, and user interfaces;</li>
+                <li>Sound effects, musical tracks, and audio design elements (licensed from Kenney, Pixabay, and Freesound, or custom authored);</li>
+                <li>The name "Klondike Solitaire", "BDST PH", branding logos, and associated trade dress.</li>
+            </ul>
+            <p>
+                Nothing in this Agreement transfers or assigns to You any ownership right, title, or interest in or to the Application or any intellectual property rights therein.
+            </p>
 
-        <h2>Indemnification</h2>
-        <p>You agree to indemnify and hold the Company and its parents, subsidiaries, affiliates, officers,
-            employees, agents, partners and licensors (if any) harmless from any claim or demand, including
-            reasonable attorneys' fees, due to or arising out of your: (a) use of the Application; (b)
-            violation of this Agreement or any law or regulation; or (c) violation of any right of a third
-            party.</p>
+            <!-- 7. In-App Purchases & Subscriptions -->
+            <h2 id="in-app-purchases">7. In-App Purchases, Subscriptions &amp; Billing</h2>
+            <p>
+                The Application is offered free of charge and may provide optional digital purchases or subscriptions, such as ad-removal upgrades ("Remove Ads") or cosmetic customizations:
+            </p>
+            <ul>
+                <li>
+                    <strong>Store Processing:</strong> All In-App Purchases and subscription transactions are processed directly and securely through the Google Play Store (for Android) or Apple App Store (for iOS). We do not collect, process, or store your credit card information, debit card details, or financial accounts.
+                </li>
+                <li>
+                    <strong>Pricing &amp; Currency:</strong> Prices for In-App Purchases are displayed within the Game in your local currency as determined by your app store account settings. Prices are subject to change at any time without prior notice.
+                </li>
+                <li>
+                    <strong>Subscriptions &amp; Auto-Renewal:</strong> If you purchase a recurring subscription:
+                    <ul>
+                        <li>Payment is charged to your Google Play or Apple ID account at confirmation of purchase;</li>
+                        <li>Subscriptions automatically renew unless auto-renew is disabled at least 24 hours prior to the conclusion of the current subscription cycle;</li>
+                        <li>Your account will be charged for renewal within 24 hours prior to the end of the current period;</li>
+                        <li>You may manage or cancel subscriptions at any time via your device's Store account settings:
+                            <br>&bull; Android: <code>Google Play Store &gt; Profile &gt; Payments &amp; subscriptions &gt; Subscriptions</code>
+                            <br>&bull; iOS: <code>Settings &gt; Apple ID &gt; Subscriptions</code>.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Refund Policy:</strong> All purchases made through the Store are governed by the respective store's refund policies:
+                    <ul>
+                        <li><a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play Refund Policy</a></li>
+                        <li><a href="https://support.apple.com/en-us/HT204084" target="_blank" rel="noopener">Apple App Store Refund Policy</a></li>
+                    </ul>
+                    The Company does not issue direct monetary refunds. Except where required by applicable consumer protection laws (including the Philippine Consumer Act or US state laws), all digital purchases are final and non-refundable once unlocked.
+                </li>
+                <li>
+                    <strong>Virtual Items:</strong> Virtual items (such as hints or undos) have no real-world monetary value, cannot be redeemed for legal tender, and are licensed on a non-exclusive, non-transferable basis.
+                </li>
+            </ul>
 
-        <h2>No Warranties</h2>
-        <p>The Application is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects
-            without warranty of any kind. To the maximum extent permitted under applicable law, the Company,
-            on its own behalf and on behalf of its affiliates and its and their respective licensors and
-            service providers, expressly disclaims all warranties, whether express, implied, statutory or
-            otherwise, with respect to the Application, including all implied warranties of merchantability,
-            fitness for a particular purpose, title and non-infringement, and warranties that may arise out
-            of course of dealing, course of performance, usage or trade practice. Without limitation to the
-            foregoing, the Company provides no warranty or undertaking, and makes no representation of any
-            kind that the Application will meet your requirements, achieve any intended results, be
-            compatible or work with any other software, applications, systems or services, operate without
-            interruption, meet any performance or reliability standards or be error free or that any errors
-            or defects can or will be corrected.</p>
-        <p>Without limiting the foregoing, neither the Company nor any of the company's provider makes any
-            representation or warranty of any kind, express or implied: (i) as to the operation or
-            availability of the Application, or the information, content, and materials or products included
-            thereon; (ii) that the Application will be uninterrupted or error-free; (iii) as to the
-            accuracy, reliability, or currency of any information or content provided through the
-            Application; or (iv) that the Application, its servers, the content, or e-mails sent from or on
-            behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or
-            other harmful components.</p>
-        <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on
-            applicable statutory rights of a consumer, so some or all of the above exclusions and
-            limitations may not apply to You. But in such a case the exclusions and limitations set forth in
-            this section shall be applied to the greatest extent enforceable under applicable law. To the
-            extent any warranty exists under law that cannot be disclaimed, the Company shall be solely
-            responsible for such warranty.</p>
+            <!-- 8. Advertisements -->
+            <h2 id="advertisements">8. Third-Party Advertisements &amp; Rewarded Ads</h2>
+            <p>
+                The Application displays third-party advertisements via <strong>Google AdMob</strong> (including banners, native ads, and interstitial/rewarded video ads) to support the ongoing development, maintenance, and availability of the free Game:
+            </p>
+            <ul>
+                <li>
+                    <strong>Rewarded Ads:</strong> You may elect to watch opt-in rewarded video advertisements to earn optional in-game benefits, such as extra undos, hints, or bonus moves. Watching these ads is entirely voluntary.
+                </li>
+                <li>
+                    <strong>Ad Content Disclaimer:</strong> Advertisements are served by third-party advertising networks. The Company does not review, verify, endorse, or guarantee the content, accuracy, legality, or products featured in third-party advertisements.
+                </li>
+                <li>
+                    <strong>Advertiser Dealings:</strong> Any interactions, purchases, or agreements between You and third-party advertisers are solely between You and that advertiser. The Company shall not be liable or responsible for any damage, loss, or dispute arising out of your dealings with any third-party advertiser.
+                </li>
+            </ul>
 
-        <h2>Limitation of Liability</h2>
-        <p>Notwithstanding any damages that You might incur, the entire liability of the Company and any of
-            its suppliers under any provision of this Agreement and your exclusive remedy for all of the
-            foregoing shall be limited to the amount actually paid by You for the Application or through the
-            Application if You haven't purchased anything through the Application.</p>
-        <p>To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers
-            be liable for any special, incidental, indirect, or consequential damages whatsoever (including,
-            but not limited to, damages for loss of profits, loss of data or other information, for business
-            interruption, for personal injury, loss of privacy arising out of or in any way related to the
-            use of or inability to use the Application, third-party software and/or third-party hardware
-            used with the Application, or otherwise in connection with any provision of this Agreement),
-            even if the Company or any supplier has been advised of the possibility of such damages and even
-            if the remedy fails of its essential purpose.</p>
-        <p>Some states/jurisdictions do not allow the exclusion or limitation of incidental or consequential
-            damages, so the above limitation or exclusion may not apply to You.</p>
+            <!-- 9. Privacy -->
+            <h2 id="privacy">9. Privacy &amp; Data Protection</h2>
+            <p>
+                Your privacy is paramount. By using the Application, You acknowledge that our <a href="privacy.html">Privacy Policy</a> governs our collection, use, transmission, and processing of technical identifiers, diagnostic data, and analytics. The Privacy Policy is incorporated by reference into and forms an integral part of this Agreement.
+            </p>
 
-        <h2>Severability and Waiver</h2>
-        <h4>Severability</h4>
-        <p>If any provision of this Agreement is held to be unenforceable or invalid, such provision will be
-            changed and interpreted to accomplish the objectives of such provision to the greatest extent
-            possible under applicable law and the remaining provisions will continue in full force and
-            effect.</p>
-        <h4>Waiver</h4>
-        <p>Except as provided herein, the failure to exercise a right or to require performance of an
-            obligation under this Agreement shall not affect a party's ability to exercise such right or
-            require such performance at any time thereafter nor shall the waiver of a breach constitute a
-            waiver of any subsequent breach.</p>
-        <h2>Product Claims</h2>
-        <p>The Company does not make any warranties concerning the Application.</p>
-        <h2>United States Legal Compliance</h2>
-        <p>You represent and warrant that (i) You are not located in a country that is subject to the United
-            States government embargo, or that has been designated by the United States government as a
-            "terrorist supporting" country, and (ii) You are not listed on any United States government list
-            of prohibited or restricted parties.</p>
-        <h2>Changes to this Agreement</h2>
-        <p>The Company reserves the right, at its sole discretion, to modify or replace this Agreement at
-            any time. If a revision is material we will provide at least 30 days' notice prior to any new
-            terms taking effect. What constitutes a material change will be determined at the sole
-            discretion of the Company.</p>
-        <p>By continuing to access or use the Application after any revisions become effective, You agree to
-            be bound by the revised terms. If You do not agree to the new terms, You are no longer
-            authorized to use the Application.</p>
-        <h2>Governing Law</h2>
-        <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Agreement and
-            your use of the Application. Your use of the Application may also be subject to other local,
-            state, national, or international laws.</p>
+            <!-- 10. Updates & Support -->
+            <h2 id="updates-support">10. Updates, Maintenance &amp; Modifications</h2>
+            <p>
+                The Company may, from time to time, develop and release updates, patches, enhancements, bug fixes, or new versions of the Application ("Updates"):
+            </p>
+            <ul>
+                <li>Updates may be downloaded and installed automatically or manually depending on your Device settings;</li>
+                <li>Certain features may be modified, adapted, or deprecated as the Game evolves;</li>
+                <li>The Company is under no legal obligation to provide continuous maintenance, customer support, or updates indefinitely, nor to maintain backward compatibility with older operating systems;</li>
+                <li>You agree that all Updates shall be deemed part of the Application and subject to the terms of this Agreement.</li>
+            </ul>
 
-        <h2>Entire Agreement</h2>
-        <p>The Agreement constitutes the entire agreement between You and the Company regarding your use of
-            the Application and supersedes all prior and contemporaneous written or oral agreements between
-            You and the Company.</p>
-        <p>You may be subject to additional terms and conditions that apply when You use or purchase other
-            Company's services, which the Company will provide to You at the time of such use or purchase.
-        </p>
-        <p>By using This App, you acknowledge that you have read, understood, and agree to be bound by the terms and
-            conditions of this EULA. If you do not agree to these terms, you may not use the App.
-        </p>
+            <!-- 11. Termination -->
+            <h2 id="termination">11. Term &amp; Termination</h2>
+            <p>
+                This Agreement shall remain in full force and effect until terminated by either You or the Company:
+            </p>
+            <ul>
+                <li><strong>Termination by You:</strong> You may terminate this Agreement at any time by ceasing all use of the Application and permanently deleting all copies of the Application from your Devices.</li>
+                <li><strong>Termination by the Company:</strong> The Company may immediately suspend or terminate this Agreement and revoke your license, without prior notice or liability, if You fail to comply with any provision of this Agreement, engage in unauthorized reverse engineering, or commit fraud.</li>
+                <li><strong>Consequences of Termination:</strong> Upon termination of this Agreement, all licenses granted to You shall immediately terminate, and You must cease all use of the Application and delete all copies.</li>
+                <li><strong>Survival:</strong> Sections 5 (Intellectual Property Rights), 11 (Termination), 12 (Disclaimer of Warranties), 13 (Limitation of Liability), 14 (Indemnification), 15 (Dispute Resolution &amp; Governing Law), and 17 (Entire Agreement) shall survive any termination.</li>
+            </ul>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Agreement, You can contact Us:</p>
-        <ul>
-            <li>By email: brylleseraspe@gmail.com</li>
-        </ul>
+            <!-- 12. No Warranties -->
+            <h2 id="no-warranties">12. Disclaimer of Warranties ("AS IS")</h2>
+            <div class="alert-warning-custom caps-notice">
+                <p><strong>WARRANTY DISCLAIMER:</strong> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APPLICATION IS PROVIDED TO YOU "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS, BUGS, AND DEFECTS, WITHOUT WARRANTY OF ANY KIND.</p>
+                <p>THE COMPANY, ON ITS OWN BEHALF AND ON BEHALF OF ITS AFFILIATES, LICENSORS, AND SERVICE PROVIDERS, EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, SYSTEM INTEGRATION, AND NON-INFRINGEMENT.</p>
+                <p class="mb-0">WITHOUT LIMITING THE FOREGOING, THE COMPANY MAKES NO WARRANTY OR UNDERTAKING THAT THE APPLICATION WILL MEET YOUR REQUIREMENTS, ACHIEVE ANY INTENDED RESULTS, BE COMPATIBLE WITH YOUR SPECIFIC DEVICE OR OPERATING SYSTEM, OPERATE WITHOUT INTERRUPTION, MEET ANY PERFORMANCE OR RELIABILITY STANDARDS, BE ERROR-FREE, OR THAT DEFECTS CAN OR WILL BE CORRECTED.</p>
+            </div>
+            <p>
+                <em>Consumer Protection Exception:</em> Some jurisdictions (including the Philippines under the Consumer Act of the Philippines, RA 7394, and certain US states) do not permit the exclusion of certain statutory implied consumer warranties. In such jurisdictions, the above disclaimers shall apply to the maximum extent permitted by applicable law.
+            </p>
+
+            <!-- 13. Limitation of Liability -->
+            <h2 id="limitation-liability">13. Limitation of Liability</h2>
+            <div class="caps-notice">
+                <p>
+                    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COMPANY, ITS DEVELOPERS, AFFILIATES, OR SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING DAMAGES FOR LOSS OF PROFITS, LOSS OF CONFIDENTIAL OR OTHER INFORMATION, BUSINESS INTERRUPTION, LOSS OF PRIVACY, FAILURE TO MEET ANY DUTY, OR DEVICE HARDWARE DAMAGE), ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE APPLICATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                </p>
+                <p>
+                    NOTWITHSTANDING ANY DAMAGES THAT YOU MIGHT INCUR FOR ANY REASON WHATSOEVER, THE ENTIRE AGGREGATE LIABILITY OF THE COMPANY UNDER ANY PROVISION OF THIS AGREEMENT AND YOUR EXCLUSIVE REMEDY SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR OR THROUGH THE APPLICATION IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR TEN UNITED STATES DOLLARS ($10.00 USD / APPROX. PHP 500.00), WHICHEVER IS GREATER.
+                </p>
+            </div>
+
+            <!-- 14. Indemnification -->
+            <h2 id="indemnification">14. Indemnification</h2>
+            <p>
+                You agree to defend, indemnify, and hold harmless the Company, Brylle Seraspe / BDST PH, and its contractors, agents, licensors, and partners from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable legal and attorneys' fees) arising out of or resulting from:
+            </p>
+            <ul>
+                <li>Your access to or use of the Application;</li>
+                <li>Your breach or violation of any provision of this Agreement;</li>
+                <li>Your violation of any applicable domestic or international law, rule, or regulation; or</li>
+                <li>Your infringement or violation of any third-party intellectual property or privacy right.</li>
+            </ul>
+
+            <!-- 15. Dispute Resolution & Governing Law -->
+            <h2 id="dispute-resolution">15. Dispute Resolution, Governing Law &amp; Jurisdiction</h2>
+            <p>
+                Please read this section carefully as it affects your legal rights, including your right to file a lawsuit in court.
+            </p>
+
+            <h3>A. Governing Law</h3>
+            <p>
+                This Agreement, and any dispute arising out of or related to it, shall be governed by and construed in accordance with the laws of the <strong>Republic of the Philippines</strong>, without regard to its conflict of laws principles. The United Nations Convention on Contracts for the International Sale of Goods does not apply.
+            </p>
+
+            <h3>B. For Users in the Philippines</h3>
+            <p>
+                If You are a resident of the Philippines, any legal action, suit, or proceeding arising out of or relating to this Agreement shall be instituted exclusively in the competent courts of the Philippines located in Metro Manila or the developer's registered domicile. Nothing in this clause prevents You from seeking administrative recourse through the <strong>National Privacy Commission (NPC)</strong> for data privacy grievances or the <strong>Department of Trade and Industry (DTI)</strong> for consumer protection concerns.
+            </p>
+
+            <h3>C. For Users in the United States</h3>
+            <p>If You are a resident of the United States, the following dispute resolution provisions apply:</p>
+            <ul>
+                <li>
+                    <strong>Informal Dispute Resolution:</strong> Prior to initiating arbitration or court action, You and the Company agree to attempt in good faith to resolve any dispute informally for at least thirty (30) days by contacting us at <code>brylleseraspe@gmail.com</code> with a written description of the dispute and proposed resolution.
+                </li>
+                <li>
+                    <strong>Binding Individual Arbitration:</strong> If the dispute is not resolved through informal negotiations, it shall be settled by binding individual arbitration administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. The Federal Arbitration Act governs the interpretation and enforcement of this section.
+                </li>
+                <li>
+                    <strong>CLASS ACTION WAIVER:</strong> YOU AND THE COMPANY AGREE THAT EACH PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING. THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON'S CLAIMS.
+                </li>
+                <li>
+                    <strong>Small Claims Court Option:</strong> Notwithstanding the foregoing, either party may bring an individual claim in a small claims court of competent jurisdiction.
+                </li>
+            </ul>
+
+            <!-- 16. US Compliance -->
+            <h2 id="us-compliance">16. United States Legal &amp; Export Compliance</h2>
+            <p>You represent and warrant that:</p>
+            <ul>
+                <li>You are not located in a country that is subject to a United States Government embargo, or designated by the US Government as a "terrorist supporting" country; and</li>
+                <li>You are not listed on any United States Government list of prohibited or restricted parties, including the US Treasury Department's list of Specially Designated Nationals or the US Department of Commerce Denied Persons List.</li>
+            </ul>
+
+            <!-- 17. Severability & Waiver -->
+            <h2 id="severability-waiver">17. Severability &amp; Waiver</h2>
+            <h4>Severability</h4>
+            <p>
+                If any provision of this Agreement is held to be invalid, illegal, or unenforceable by an arbitrator or court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it valid and enforceable, and the remaining provisions shall continue in full force and effect.
+            </p>
+            <h4>Waiver</h4>
+            <p>
+                No failure or delay by the Company in exercising any right, power, or privilege under this Agreement shall operate as a waiver thereof, nor shall any single or partial exercise preclude any other or further exercise of any other right, power, or privilege.
+            </p>
+
+            <!-- 18. Entire Agreement -->
+            <h2 id="entire-agreement">18. Entire Agreement &amp; Amendments</h2>
+            <p>
+                This Agreement, together with the <a href="privacy.html">Privacy Policy</a> and any additional terms presented during In-App Purchases, constitutes the entire agreement between You and the Company concerning the Application, and supersedes all prior or contemporaneous oral or written understandings, agreements, or communications.
+            </p>
+            <p>
+                The Company reserves the right to revise or update this Agreement at any time. For material modifications, we will provide at least thirty (30) days' notice by updating the "Last Updated" date or through an in-app notice. Your continued use of the Application after revised terms become effective signifies your agreement to be bound by the updated Agreement.
+            </p>
+
+            <!-- 19. Contact Us -->
+            <h2 id="contact-us">19. Contact Information</h2>
+            <p>
+                If You have any questions, comments, or legal notices concerning this Agreement or the Application, please contact Us:
+            </p>
+            <div class="card p-3 bg-light border-0">
+                <p class="mb-1"><strong>Developer / Licensor:</strong> Brylle Seraspe / BDST PH</p>
+                <p class="mb-1"><strong>Country:</strong> Philippines</p>
+                <p class="mb-1"><strong>Email:</strong> <a href="mailto:brylleseraspe@gmail.com">brylleseraspe@gmail.com</a></p>
+                <p class="mb-0"><strong>Developer Website:</strong> <a href="https://bdstph.github.io/" target="_blank" rel="noopener">https://bdstph.github.io/</a></p>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer -->
     <footer class="container py-5">
         <div class="row">
-            <div class="col-12 col-md">
-                <small class="d-block mb-3 text-muted">© 2024 <a target="_blank" href="https://bdstph.github.io/">Brylle
-                        Seraspe</a></small>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="icon.png" alt="Logo" class="footer-logo mr-2 rounded">
+                    <span class="font-weight-bold text-dark">Klondike Solitaire</span>
+                </div>
+                <small class="d-block text-muted">&copy; 2026 Brylle Seraspe (BDST PH). All rights reserved.</small>
+                <small class="d-block text-muted">A classic card game crafted with Flutter &amp; Flame.</small>
             </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
+            <div class="col-6 col-md-3">
+                <h6 class="text-uppercase font-weight-bold text-muted">Legal &amp; Policy</h6>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" target="_blank" href="https://bdstph.github.io/">Contact</a></li>
-                    <li><a class="text-muted" href="privacy.html">Privacy</a></li>
-                    <li><a class="text-muted" href="eula.html">EULA</a></li>
+                    <li><a class="text-muted" href="privacy.html">Privacy Policy</a></li>
+                    <li><a class="text-muted" href="eula.html">Terms of Agreement (EULA)</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                <h6 class="text-uppercase font-weight-bold text-muted">Developer</h6>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" target="_blank" rel="noopener" href="https://bdstph.github.io/">Developer Portfolio</a></li>
+                    <li><a class="text-muted" href="mailto:brylleseraspe@gmail.com">Support &amp; Contact</a></li>
                 </ul>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
